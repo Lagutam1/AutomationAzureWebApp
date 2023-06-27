@@ -2,7 +2,7 @@ package AutomationApps;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.testng.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MyWebApp {
@@ -15,7 +15,7 @@ public class MyWebApp {
 
 		System.out.println("Title is " + title);
 
-		//Assert.assertEquals(title, "Login Page");
+		Assert.assertEquals(title, "Login Page");
 
 		Thread.sleep(2000);
 
