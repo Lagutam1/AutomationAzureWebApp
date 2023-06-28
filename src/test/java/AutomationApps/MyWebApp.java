@@ -10,11 +10,11 @@ public class MyWebApp {
 	@Test
 	public void verifyTitle() throws InterruptedException {
 		
-		ChromeOptions chromeoption = new ChromeOptions();
-		chromeoption.addArguments("--headless");
+		//ChromeOptions chromeoption = new ChromeOptions();
+		//chromeoption.addArguments("--headless");
 		
 		
-		WebDriver driver = new ChromeDriver(chromeoption);
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://azurebuilddemo.azurewebsites.net/mywebProject/");
 
 		String title = driver.getTitle();

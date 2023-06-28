@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-28T14:25:10 IST" name="Default suite" finished-at="2023-06-28T14:25:15 IST" duration-ms="4842">
+  <suite started-at="2023-06-28T14:44:04 IST" name="Default suite" finished-at="2023-06-28T14:44:10 IST" duration-ms="6013">
     <groups>
     </groups>
-    <test started-at="2023-06-28T14:25:10 IST" name="Default test" finished-at="2023-06-28T14:25:15 IST" duration-ms="4842">
+    <test started-at="2023-06-28T14:44:04 IST" name="Default test" finished-at="2023-06-28T14:44:10 IST" duration-ms="6013">
       <class name="AutomationApps.MyWebApp">
-        <test-method signature="verifyTitle()[pri:0, instance:AutomationApps.MyWebApp@2d52216b]" started-at="2023-06-28T14:25:10 IST" name="verifyTitle" finished-at="2023-06-28T14:25:15 IST" duration-ms="4785" status="FAIL">
+        <test-method signature="verifyTitle()[pri:0, instance:AutomationApps.MyWebApp@2d52216b]" started-at="2023-06-28T14:44:04 IST" name="verifyTitle" finished-at="2023-06-28T14:44:10 IST" duration-ms="5945" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: net::ERR_CONNECTION_CLOSED
-  (Session info: headless chrome=114.0.5735.198)
+  (Session info: chrome=114.0.5735.198)
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [543e3bad022ff1519b03a781921d630a, get {url=https://azurebuilddemo.azurewebsites.net/mywebProject/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LagutamS\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61845/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 543e3bad022ff1519b03a781921d630a]]>
+Command: [af381caa1c3499f6eaf61aa3769c704c, get {url=https://azurebuilddemo.azurewebsites.net/mywebProject/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LagutamS\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63049/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af381caa1c3499f6eaf61aa3769c704c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_CLOSED
-  (Session info: headless chrome=114.0.5735.198)
+  (Session info: chrome=114.0.5735.198)
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [543e3bad022ff1519b03a781921d630a, get {url=https://azurebuilddemo.azurewebsites.net/mywebProject/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LagutamS\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61845/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 543e3bad022ff1519b03a781921d630a
+Command: [af381caa1c3499f6eaf61aa3769c704c, get {url=https://azurebuilddemo.azurewebsites.net/mywebProject/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LagutamS\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63049/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af381caa1c3499f6eaf61aa3769c704c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
